@@ -36,9 +36,9 @@ const SOPRender = () => {
 
   const loadFiles = async () => {
     try {
-      await vu.sop.load('onboarding/');
       vu.sop.useGestures = 'mixedChallenge';
       vu.sop.audio.enabled = false;
+      await vu.sop.load('onboarding/');
     } catch (error) {
       throw error;
     }
