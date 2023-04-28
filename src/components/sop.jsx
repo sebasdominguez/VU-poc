@@ -133,7 +133,7 @@ const SOPRender = () => {
         width: '100%',
       }}
     >
-      <div id='vu.sop' style={{ display: 'none', width: '50%' }} />
+      <div id='vu.sop' style={{ display: 'none', width: '100%' }} />
       <div
         style={{
           height: '100%',
